@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <link href="style.css" rel="stylesheet">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Виртуальный хостинг</title>
+
+    <script src="js.js"></script>
+
+    <style>
+        body {
+            overflow-x: hidden;
+            background-color: rgb(254, 255, 255);
+        }
+    </style>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <div class="my-5 text-center">
+        <a href="/index.html"><img src="https://hc.ru/img/logo.png"></a><br>
+        <div class="text-center">
+            <input size="20" type="text" name="" value="" placeholder="Логин">
+            <input size="20" type="text" name="" value="" placeholder="Пароль">
+            <button type="button" class="btn btn-dark btn-sm text-right">Регистрация</button>
+            <button type="button" class="btn btn-secondary btn-sm text-right">Войти</button>
+        </div>
+
+    </div>
+    <div class="container py-5 bg-light">
+        <div class="container text-center">
+            <header>
+                <!-- Fixed navbar -->
+                <nav class="navbar navbar-expand-md navbar-dark  bg-dark">
+                    <a href="index.html"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav mr-auto">
+                            <div class="dropdown open">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Хостинг
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="/virtualhosting.html">Виртуальный хостинг</a>
+                                    <a class="dropdown-item" href="/VPSVDShosting.html">VPS/VDS хостинг</a>
+                                    <a class="dropdown-item" href="/hostingbitrix.html">Хостинг для 1С-Битрикс</a>
+                                </div>
+                            </div>
+                            <div class="dropdown open">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Серверы
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Аренда серверов</a>
+                                    <a class="dropdown-item" href="#">Наши дата-центры</a>
+                                </div>
+                            </div>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">Домены</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">SSL</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">О компании</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+
+
+
+            <h2>ВИРТУАЛЬНЫЙ ХОСТИНГ ДЛЯ САЙТОВ</h2>
+            <h1>Для персональных страниц, блогов, форумов,<br>
+                небольших интернет-магазинов</h1>
+            <div class="row">
+                <div class="col-lg-3 d-flex align-items-stretch">
+                    <div class="card mb-3 box-shadow">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <h5>100</h5>
+                                <p>4 ГБ на SSD диске</p>
+                                <p>10 сайтов</p>
+                                <p>x MySQL</p>
+                                <p>x PHP, Python, Perl</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+
+                                        <input class=" border-0" type="button" name="" value="Выбрать"
+                                            onclick="token()"> &nbsp&nbsp От 129 руб/мес
+
+
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-flex align-items-stretch">
+                    <div class="card mb-3 box-shadow">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <h5>200</h5>
+                                <p>10 ГБ на SSD диске</p>
+                                <p>15 сайтов</p>
+                                <p>Бесконечное количество баз MySQL</p>
+                                <p>есть PHP, Python, Perl</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <input class="border-0" type="button" name="" value="Выбрать"
+                                            onclick="token2()"> &nbsp&nbsp От 210 руб/мес &nbsp&nbsp&nbsp
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-flex align-items-stretch">
+                    <div class="card mb-3 box-shadow">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <h5>300</h5>
+                                <p>27 ГБ на SSD диске</p>
+                                <p>25 сайтов</p>
+                                <p>Бесконечное количество баз MySQL</p>
+                                <p>есть PHP, Python, Perl</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <input class="border-0" type="button" name="" value="Выбрать"
+                                            onclick="token3()"> &nbsp&nbsp От 324 руб/мес &nbsp&nbsp&nbsp
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-flex align-items-stretch">
+                    <div class="card mb-3 box-shadow">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <h5>400</h5>
+                                <p>20 ГБ на SSD диске</p>
+                                <p>50 сайтов</p>
+                                <p>Бесконечное количество баз MySQL</p>
+                                <p>есть PHP, Python, Perl</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <input class="border-0" type="button" name="" value="Выбрать"
+                                            onclick="token4()"> &nbsp&nbsp От 749 руб/мес &nbsp&nbsp&nbsp
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <table class="table table-striped container">
+            <thead>
+                <tr>
+                    <div class="custom-control custom-checkbox">
+                        <th scope="col" class="text-center">Месяцев</th>
+                        <th scope="col" class="text-right">Стоимость</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="custom-control custom-checkbox">
+                            <input style="width:955px;height:40px" class="border-0" type="button" name=""
+                                value="1 месяц" onclick="Month()">
+                        </div>
+                    </td>
+                    <td class="text-right">215 р</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="custom-control custom-checkbox">
+                            <input style="width:955px;height:40px" class="border-0" type="button" name=""
+                                value="6 месяц" onclick="Month6()">
+                        </div>
+                    </td>
+
+                    <td class="text-right">1266 р</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="custom-control custom-checkbox">
+                            <input style="width:955px;height:40px" class="border-0" type="button" name=""
+                                value="12 месяц" onclick="Month12()">
+                        </div>
+                    </td>
+                    <td class="text-right">2064 р</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="custom-control custom-checkbox">
+                            <input style="width:955px;height:40px" class="border-0" type="button" name=""
+                                value="32 месяц" onclick="Month32()">
+                        </div>
+                    </td>
+                    <td class="text-right">4644 р</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+        <table class="table table-bordered container my-5">
+            <tbody>
+                <tr class="">
+                    <td>
+                        <div class="custom-control custom-checkbox">
+                            <input style="width:955px;height:40px" class="border-0" type="button" name="" value="Домен"
+                                onclick="Add1()">
+                        </div>
+                    </td>
+                    <td class="text-right">
+                        <h4></h4>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="custom-control custom-checkbox">
+                            <input style="width:955px;height:40px" class="border-0" type="button" name=""
+                                value="Дополнительный ip адрес" onclick="Add2()">
+                        </div>
+                    </td>
+                    <td class="text-right">
+                        <h4>79 р/мес</h4>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="custom-control custom-checkbox">
+                            <input style="width:955px;height:40px" class="border-0" type="button" name=""
+                                value="Антивирус" onclick="Add3()">
+                        </div>
+                    </td>
+                    <td class="text-right">
+                        <h5>259 р/мес</h5>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="custom-control custom-checkbox">
+                            <input style="width:955px;height:40px" class="border-0" type="button" name=""
+                                value="SSL сертификат" onclick="Add4()">
+                        </div>
+                    </td>
+                    <td class="text-right">
+                        <h4>0 р/год</h4>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <table class="table table-striped container ">
+            <tbody>
+                <tr>
+                    <td>
+                        <h2 class="row">&nbsp&nbspИтог: &nbsp&nbsp<input class="border-0" type="text" name="n1"
+                                value="0">
+                        </h2>
+                    </td>
+                    <td>
+                        <button type="button" class="btn btn-lg">Оплатить</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
